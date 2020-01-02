@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:layout_weight="0.35">
+
+    </com.daimajia.slider.library.SliderLayout>
+
+        <LinearLayout
+            android:layout_width="389dp"
+            android:layout_height="157dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewDJList"
+                android:layout_width="150dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="85dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/djtypes" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="100dp"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:text="All DJ
+                                 LIST"
+                    android:textColor="@color/button"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewBookDJ"
+                android:layout_width="159dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="85dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bookdj1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="110dp"
+                    android:text="BOOK DJ"
+                    android:gravity="center"
+                    android:textSize="18dp"
+
+                    android:textColor="@color/button"
+
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="389dp"
+            android:layout_height="152dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewHistory"
+                android:layout_width="150dp"
+                android:layout_height="145dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="85dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/history1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="110dp"
+                    android:text="HISTORY"
+                    android:textSize="18dp"
+                    android:textColor="@color/button"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewPayment"
+                android:layout_width="159dp"
+                android:layout_height="145dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="85dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/payment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="110dp"
+                    android:text=" PAYMENT"
+                    android:textSize="18dp"
+                    android:textColor="@color/button"
+
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Developed by eSparse Matrix Solution Pvt Ltd"
+            android:textSize="12sp"
+            android:textStyle="italic|bold" />
+
+
+
+
+
+
+
+
+</LinearLayout>

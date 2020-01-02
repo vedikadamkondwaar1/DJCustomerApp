@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomerLoginActivity">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="122dp"
+        android:orientation="horizontal"
+        android:background="@drawable/background_color" >
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="111dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:text="Already
+                            Have An
+                                Account?.."
+            />
+
+        <ImageView
+            android:layout_width="132dp"
+            android:layout_height="114dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/logindj" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="369dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/custom_corner"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text="Login"
+
+            />
+
+        <EditText
+            android:id="@+id/etLoginUsername"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter user name"
+            android:textColor="@android:color/black"
+
+            android:textColorHint="@android:color/black"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Enter Password"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="222dp"
+            android:layout_height="43dp"
+            android:text="Remember Me"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="132dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_corner"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btnLoginRegister"
+            android:layout_width="162dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_corner"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="125dp"
+        android:background="@drawable/background_bottomcolor"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="164dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="85dp"
+            android:gravity="center"
+            android:text="Or Continue With"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="85dp"
+                    android:background="@drawable/facebook2" />
+
+                <ImageView
+                    android:layout_width="67dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/gamil" />
+            </LinearLayout>
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Developed by eSparse Matrix Solution Pvt Ltd"
+            android:textSize="12sp"
+            android:textStyle="italic|bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

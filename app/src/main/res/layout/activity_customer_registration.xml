@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomerRegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="113dp"
+        android:background="@drawable/background_color"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="First Step
+                            With Us..."
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="96dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/logindj" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="386dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/custom_corner"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Registration"
+
+            />
+
+        <EditText
+            android:id="@+id/etFullname"
+            android:layout_width="256dp"
+            android:layout_height="39dp"
+            android:textColorHint="@android:color/black"
+            android:hint="full name"
+            android:textColor="@android:color/black"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="256dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="2dp"
+            android:hint="user name"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etmobileNo"
+            android:layout_width="256dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="2dp"
+            android:textColorHint="@android:color/black"
+            android:hint="mobile number"
+            android:textColor="@android:color/black"
+
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/emailadd"
+            android:layout_width="256dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="4dp"
+            android:hint="email_address"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/DOB"
+            android:layout_width="256dp"
+            android:layout_height="39dp"
+            android:hint="DD/MM/YYYY"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:textColorHint="@android:color/black"
+            android:drawableEnd="@drawable/ic_date_range_black_24dp"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+        <LinearLayout
+            android:layout_width="256dp"
+            android:layout_height="37dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:text="gender"
+                android:layout_marginLeft="4dp"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGrp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/radioM"
+                    android:layout_width="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Male"
+                    android:textColor="@android:color/black"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:id="@+id/radioF"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:textColor="@android:color/black"
+                    android:text="Female"
+                    android:textSize="14dp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="256dp"
+            android:layout_height="39dp"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:layout_marginTop="1dp"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="256dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="2dp"
+            android:hint="confirm password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="122dp"
+        android:gravity="center"
+        android:background="@drawable/background_bottomcolor"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="135dp"
+            android:layout_height="30dp"
+            android:background="@drawable/custom_corner"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Already Having An Account?.."
+            />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="132dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/custom_corner"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Developed by eSparse Matrix Solution Pvt Ltd"
+            android:textSize="12sp"
+            android:textStyle="italic|bold" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
